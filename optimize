@@ -109,7 +109,7 @@ else
 	try_run	eclean -d distfiles
 	try_run	glsa-check -t all
 	run	emaint --fix all
-	run	rm -rf /var/tmp/portage
+	run	rm -rf /var/tmp/portage/*
 fi
 
 # system
